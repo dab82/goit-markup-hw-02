@@ -10,24 +10,25 @@
 			href="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico"
 			type="image/x-icon"
 		/>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body>
-		<header>
+			<header>
 			<nav>
-				<a href="./"><span>Web</span>Studio</a>
-				<ul>
-					<li><a href="./index.html">Студия</a></li>
-					<li>
-						<a href="./portfolio.html">Портфолио</a>
+				<a class="text-logo" href="./portfolio.html"><span class="logo">Web</span>Studio</a>
+				<ul class="list-header">
+					<li><a href="./index.html" class="list-nav">Студия</a>
 					</li>
-					<li><a href="">Контакты</a></li>
-				</ul>
-			</nav>
-			<div>
-				<ul>
-					<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-					<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+					<li>
+						<a href="./portfolio.html" class="list-nav">Портфолио</a>
+					</li>
+					<li><a href="" class="list-nav">Контакты</a></li>
+				</ul>			<div>
+				<ul class="list-header">
+					<li><a href="mailto:info@devstudio.com" class="list-contact">info@devstudio.com</a></li>
+					<li><a href="tel:+380961111111" class="list-contact">+38 096 111 11 11</a></li>
 				</ul>
 			</div>
 		</header>
@@ -35,11 +36,11 @@
 		<main>
 			<!--Главная секция с заглавием-->
 			<section>
-				<h1>
+				<h1 class="hero">
 					Эффективные решения <br />
 					для вашего бизнеса
 				</h1>
-				<button type="button">Заказать услугу</button>
+				<button type="button" class="main-button">Заказать услугу</button>
 			</section>
 			<!--Секция особенности-->
 			<section>
@@ -120,7 +121,7 @@
 			</section>
 		</main>
 		<footer>
-			<a href="./">WebStudio</a>
+			<a class="text-logo" href="./"><span class="logo">Web</span>Studio</a>
 			<address>
 				<p>г. Киев, пр-т Леси Украинки, 26</p>
 				<ul>

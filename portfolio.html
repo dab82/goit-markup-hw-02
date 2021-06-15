@@ -10,42 +10,43 @@
 			href="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico"
 			type="image/x-icon"
 		/>
-		<link rel="stylesheet" href="style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body>
 		<header>
 			<nav>
-				<a href="./"><span>Web</span>Studio</a>
-				<ul>
-					<li><a href="./index.html">Студия</a></li>
-					<li>
-						<a href="./portfolio.html">Портфолио</a>
+				<a class="text-logo" href="./portfolio.html"><span class="logo">Web</span>Studio</a>
+				<ul class="list-header">
+					<li><a href="./index.html" class="list-nav">Студия</a>
 					</li>
-					<li><a href="">Контакты</a></li>
-				</ul>
-			</nav>
-			<div>
-				<ul>
-					<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-					<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+					<li>
+						<a href="./portfolio.html" class="list-nav">Портфолио</a>
+					</li>
+					<li><a href="" class="list-nav">Контакты</a></li>
+				</ul>			<div>
+				<ul class="list-header">
+					<li><a href="mailto:info@devstudio.com" class="list-contact">info@devstudio.com</a></li>
+					<li><a href="tel:+380961111111" class="list-contact">+38 096 111 11 11</a></li>
 				</ul>
 			</div>
 		</header>
 
 		<main>
+			<!--Заголовок необходимо скрыть-->
+			<h1>Наши работы</h1>
 			<!--Фильт-->
-			<ul>
-				<li><button type="button">Все</button></li>
-				<li><button type="button">Веб-сайты</button></li>
-				<li><button type="button">Приложения</button></li>
-				<li><button type="button">Дизайн</button></li>
-				<li><button type="button">Маркетинг</button></li>
-			</ul>
-			<!--Проекти-->
+			<ul class="list-filtre">
+				<li><button type="button" class="filtre">Веб-сайты</button></li>
+				<li><button type="button" class="filtre">Приложения</button></li>
+				<li><button type="button" class="filtre">Дизайн</button></li>
+				<li><button type="button" class="filtre">Все</button></li>
+				<li><button type="button" class="filtre">Маркетинг</button></li>
+			<!--Проэкты-->
 			<ul>
 				<li>
 					<img
-						src="./images/portfolio.jpg"
+						src="./images/portfolio/portfolio.jpg"
 						alt="Ноутбук"
 						width="370"
 						height="295"
@@ -55,7 +56,7 @@
 				</li>
 				<li>
 					<img
-						src="./images/portfolio1.jpg"
+						src="./images/portfolio/portfolio1.jpg"
 						alt="баскетболисты"
 						width="370"
 						height="295"
@@ -65,7 +66,7 @@
 				</li>
 				<li>
 					<img
-						src="./images/portfolio2.jpg"
+						src="./images/portfolio/portfolio2.jpg"
 						alt="Эмблема рибного ресторана"
 						width="370"
 						height="295"
@@ -75,7 +76,7 @@
 				</li>
 				<li>
 					<img
-						src="./images/portfolio3.jpg"
+						src="./images/portfolio/portfolio3.jpg"
 						alt="Наушники"
 						width="370"
 						height="295"
@@ -85,7 +86,7 @@
 				</li>
 				<li>
 					<img
-						src="./images/portfolio4.jpg"
+						src="./images/portfolio/portfolio4.jpg"
 						alt="2 коробки"
 						width="370"
 						height="295"
@@ -95,7 +96,7 @@
 				</li>
 				<li>
 					<img
-						src="./images/portfolio5.jpg"
+						src="./images/portfolio/portfolio5.jpg"
 						alt="Моноблок"
 						width="370"
 						height="295"
@@ -105,7 +106,7 @@
 				</li>
 				<li>
 					<img
-						src="./images/portfolio6.jpg"
+						src="./images/portfolio/portfolio6.jpg"
 						alt="Книга"
 						width="370"
 						height="295"
@@ -115,7 +116,7 @@
 				</li>
 				<li>
 					<img
-						src="./images/portfolio7.jpg"
+						src="./images/portfolio/portfolio7.jpg"
 						alt="Бирка"
 						width="370"
 						height="295"
@@ -125,7 +126,7 @@
 				</li>
 				<li>
 					<img
-						src="./images/portfolio8.jpg"
+						src="./images/portfolio/portfolio8.jpg"
 						alt="Ноутбук"
 						width="370"
 						height="295"
@@ -134,9 +135,10 @@
 					<p>Приложение</p>
 				</li>
 			</ul>
+	
 		</main>
 		<footer>
-			<a href="./">WebStudio</a>
+			<a class="text-logo" href="./portfolio.html"><span class="logo">Web</span>Studio</a>
 			<address>
 				<p>г. Киев, пр-т Леси Украинки, 26</p>
 				<ul>

@@ -1,3 +1,88 @@
-.body {
-	color: blue;
+/*  */
+:root {
+	--primary-bg-color: #ffffff;
+	--second-bg-color: #2f303a;
+	--accent-color: #2196f3;
+	--primary-text-color: #212121;
+	--second-text-color: #757575;
+}
+/* primary-font-family: roboto; */
+/* logo-font-family: Raleway; */
+/*  fon button Portfolio #F5F4FA; */
+
+body {
+	background-color: var(--primary-bg-color);
+	font-family: Roboto;
+}
+.text-logo {
+	font-family: Raleway;
+	font-style: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	color: #000000;
+	text-decoration: none;
+}
+.logo {
+	color: var(--accent-color);
+}
+
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+.list-header :hover,
+.list-header :focus {
+	color: var(--accent-color);
+}
+.list-header {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.list-nav {
+	color: var(--primary-text-color);
+}
+.list-contact {
+	color: var(--second-text-color);
+}
+.hero {
+	color: var(--primary-bg-color);
+	background-color: var(--second-bg-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+.main-button {
+	color: var(--primary-bg-color);
+	background-color: var(--accent-color);
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.87;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+
+h3 {
+	color: var(--primary-text-color);
+}
+p {
+	color: var(--second-text-color);
+}
+.filtre {
+	color: var(--primary-text-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+}
+.filtre:hover,
+.filtre:focus {
+	color: var(--primary-bg-color);
+	background: var(--accent-color);
 }
