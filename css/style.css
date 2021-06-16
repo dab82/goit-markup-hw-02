@@ -1,7 +1,7 @@
 /*  */
 :root {
-	--primary-bg-color: #ffffff;
-	--second-bg-color: #2f303a;
+	--primary-white-color: #ffffff;
+	--second-dark-color: #2f303a;
 	--accent-color: #2196f3;
 	--primary-text-color: #212121;
 	--second-text-color: #757575;
@@ -12,10 +12,12 @@
 
 body {
 	background-color: var(--primary-bg-color);
-	font-family: Roboto;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
 }
 .text-logo {
-	font-family: Raleway;
+	font-family: "Raleway", sans-serif;
 	font-style: 700;
 	font-size: 26px;
 	line-height: 1.2;
@@ -26,7 +28,7 @@ body {
 	color: var(--accent-color);
 }
 
-a {
+.link {
 	text-decoration: none;
 }
 ul {
@@ -40,17 +42,25 @@ ul {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
-	letter-spacing: 0.02em;
 }
 .list-nav {
 	color: var(--primary-text-color);
+	text-decoration: none;
+}
+.current {
+	color: var(--accent-color);
 }
 .list-contact {
 	color: var(--second-text-color);
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
 }
 .hero {
-	color: var(--primary-bg-color);
-	background-color: var(--second-bg-color);
+	background-color: var(--second-dark-color);
+}
+.hero-title {
+	color: var(--primary-white-color);
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -59,16 +69,23 @@ ul {
 	text-transform: uppercase;
 }
 .main-button {
-	color: var(--primary-bg-color);
+	color: var(--primary-white-color);
 	background-color: var(--accent-color);
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
 }
+/* .main-button :hover, */
+/* .main-button :focus {} */
 
+.list-features {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
 h3 {
 	color: var(--primary-text-color);
 }
@@ -83,6 +100,20 @@ p {
 }
 .filtre:hover,
 .filtre:focus {
-	color: var(--primary-bg-color);
+	color: var(--primary-white-color);
 	background: var(--accent-color);
+	cursor: pointer;
+}
+.adress-footer {
+	color: var(--primary-white-color);
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	font-style: normal;
+	text-decoration: none;
+}
+.footer {
+	background-color: var(--second-dark-color);
+}
+.footer > .text-logo {
+	color: var(--primary-white-color);
 }

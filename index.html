@@ -10,65 +10,82 @@
 			href="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico"
 			type="image/x-icon"
 		/>
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body>
-			<header>
+		<header>
 			<nav>
-				<a class="text-logo" href="./portfolio.html"><span class="logo">Web</span>Studio</a>
+				<a class="text-logo" href="./portfolio.html"
+					><span class="logo">Web</span>Studio
+				</a>
 				<ul class="list-header">
-					<li><a href="./index.html" class="list-nav">Студия</a>
+					<li>
+						<a class="list-nav current" href="./index.html">Студия</a>
 					</li>
 					<li>
-						<a href="./portfolio.html" class="list-nav">Портфолио</a>
+						<a class="list-nav" href="./portfolio.html">Портфолио</a>
 					</li>
-					<li><a href="" class="list-nav">Контакты</a></li>
-				</ul>			<div>
+					<li><a class="list-nav" href="">Контакты</a></li>
+				</ul>
+			</nav>
+
+			<div>
 				<ul class="list-header">
-					<li><a href="mailto:info@devstudio.com" class="list-contact">info@devstudio.com</a></li>
-					<li><a href="tel:+380961111111" class="list-contact">+38 096 111 11 11</a></li>
+					<li>
+						<a href="mailto:info@devstudio.com" class="list-contact"
+							>info@devstudio.com</a
+						>
+					</li>
+					<li>
+						<a href="tel:+380961111111" class="list-contact"
+							>+38 096 111 11 11</a
+						>
+					</li>
 				</ul>
 			</div>
 		</header>
 
 		<main>
 			<!--Главная секция с заглавием-->
-			<section>
-				<h1 class="hero">
+			<section class="hero">
+				<h1 class="hero-title">
 					Эффективные решения <br />
 					для вашего бизнеса
 				</h1>
 				<button type="button" class="main-button">Заказать услугу</button>
 			</section>
 			<!--Секция особенности-->
-			<section>
+			<section class="features">
 				<h2>Особенности</h2>
 				<ul>
 					<li>
-						<h3>Внимание к деталям</h3>
+						<h3 class="list-features">Внимание к деталям</h3>
 						<p>
 							Идейные соображения, а также начало повседневной работы по
 							формированию позиции.
 						</p>
 					</li>
 					<li>
-						<h3>Пунктуальность</h3>
+						<h3 class="list-features">Пунктуальность</h3>
 						<p>
 							Задача организации, в особенности же рамки и место обучения кадров
 							влечет за собой.
 						</p>
 					</li>
 					<li>
-						<h3>Планирование</h3>
+						<h3 class="list-features">Планирование</h3>
 						<p>
 							Равным образом консультация с широким активом в значительной
 							степени обуславливает.
 						</p>
 					</li>
 					<li>
-						<h3>Современные технологии</h3>
+						<h3 class="list-features">Современные технологии</h3>
 						<p>
 							Значимость этих проблем настолько очевидна, что реализация
 							плановых заданий.
@@ -120,13 +137,30 @@
 				</ul>
 			</section>
 		</main>
-		<footer>
+		<footer class="footer">
 			<a class="text-logo" href="./"><span class="logo">Web</span>Studio</a>
 			<address>
-				<p>г. Киев, пр-т Леси Украинки, 26</p>
-				<ul>
-					<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-					<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+				<ul class="list-header">
+					<li>
+						<a
+							class="adress-footer"
+							href="https://goo.gl/maps/jzQwwj4ujLne8MiLA"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							г. Киев, пр-т Леси Украинки, 26</a
+						>
+					</li>
+					<li>
+						<a href="mailto:info@devstudio.com" class="list-contact"
+							>info@devstudio.com</a
+						>
+					</li>
+					<li>
+						<a href="tel:+380961111111" class="list-contact"
+							>+38 096 111 11 11</a
+						>
+					</li>
 				</ul>
 			</address>
 		</footer>
